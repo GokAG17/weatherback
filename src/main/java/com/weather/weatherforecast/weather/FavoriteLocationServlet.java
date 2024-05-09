@@ -14,7 +14,7 @@ import java.util.List;
 @WebServlet("/favorites")
 public class FavoriteLocationServlet extends HttpServlet {
 
-    private final String jdbcUrl = "jdbc:postgresql://localhost:5433/postgres";
+    private final String jdbcUrl = "jdbc:postgresql://localhost:5432/postgres";
     private final String jdbcUsername = "postgres";
     private final String jdbcPassword = "Gokul123@";
 
